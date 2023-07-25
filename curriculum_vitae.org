@@ -1,0 +1,66 @@
+#+setupfile: {[ setup_file ]}
+
+#+LATEX_HEADER: \usepackage{ {[ my_latex_package ]} }
+
+#+TITLE: Curriculum Vitae
+
+#+LATEX: \vspace{-7ex}
+
+#+LATEX: \raggedright\begin{minipage}[t]{.65\textwidth}
+* {[ summary_heading ]}
+{[ summary_body ]}
+#+LATEX: \end{minipage}
+#+LATEX: \hspace{\fill}\vline\hspace{\fill}
+#+LATEX: \begin{minipage}[t]{.3\textwidth}
+* {[ contact_heading ]}
+{{{contact_element({[ name_word ]}:     {[ name ]}     )}}}
+{{{contact_element({[ email_word ]}:    {[ email ]}    )}}}
+{{{contact_element({[ location_word ]}: {[ location ]} )}}}
+{{{contact_element({[ phone_word ]}:    {[ phone ]}    )}}}
+#+LATEX: \end{minipage}
+
+* {[ experience_heading ]}
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align llXX
+|---|
+{[ experience_table_headers ]}
+|---|
+{[ experience_table_records ]}
+
+* {[ education_heading ]}
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align lXXX
+|---|
+{[ education_table_headers ]}
+|---|
+{[ education_table_records ]}
+
+* {[ awards_heading ]}
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align llX
+|---|
+{[ awards_table_headers ]}
+|---|
+{[ awards_table_records ]}
+
+* {[ organizations_heading ]}
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align lXXX
+|---|
+{[ organizations_table_headers ]}
+|---|
+{[ organizations_table_records ]}
+
+#+LATEX: \raggedright\begin{minipage}[t]{.45\textwidth}
+*  {[ hard_skills_heading ]}
+{{{begin_tasks(2)}}}
+{[ hard_skills ]}
+{{{end_tasks}}}
+#+LATEX: \end{minipage}
+#+LATEX: \hspace{\fill}\vline\hspace{\fill}
+#+LATEX: \begin{minipage}[t]{.45\textwidth}
+
+* {[ soft_skills_heading ]}
+{{{begin_tasks(2)}}}
+{[ soft_skills ]}
+{{{end_tasks}}}
+#+LATEX: \end{minipage}
+
+#+LATEX: \vspace{\fill}
+#+LATEX: Generated \today

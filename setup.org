@@ -1,0 +1,16 @@
+# Global export settings
+
+#+LATEX_CLASS_OPTIONS: [a4paper,10pt]
+
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: author:nil date:nil
+
+#+OPTIONS: html-style:nil
+#+OPTIONS: html-postamble:nil
+
+#+MACRO: contact_element @@html:<div class="contact-element">@@ $1  @@latex:@@  $2 @@latex:\\@@ @@html:</div>@@
+
+#+MACRO: end_tasks   @@latex:\end{tasks}@@                             @@html:</ol>@@
+#+MACRO: begin_tasks @@latex:\begin{tasks}[label=\textbullet]($1)@@ @@html:<ol>@@
+#+MACRO: task        @@latex:\task@@                                   @@html:<li>@@ $1 @@html:</li>@@

@@ -1,0 +1,29 @@
+name: Build Curriculum Vitae
+run-name: ${{ github.actor }} is building the CV
+on: [push]
+jobs:
+  Build-Curriculum-Vitae:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update aptitude
+        run: sudo apt update
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Install Tex
+        run: sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-full
+      - name: Install Emacs
+        run: sudo add-apt-repository universe && sudo apt update && sudo apt install -y emacs
+      - name: Run build script
+        run: python3 build.py
+      - name: List build directory
+        run: ls build/
+      - name: Release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Newest generated CV files"
+          files: |
+            build/*.pdf
+            build/*.html

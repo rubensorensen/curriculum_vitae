@@ -1,0 +1,29 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mycv}[2023/11/24 package mycv]
+
+\RequirePackage{tabularx}
+\RequirePackage[margin=0.5in]{geometry}
+\RequirePackage{tasks}
+\RequirePackage{palatino}
+\RequirePackage{sectsty}
+\RequirePackage{titlesec}
+\RequirePackage{titling}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[english, norsk]{babel}
+
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+
+\pagenumbering{gobble}
+
+\renewcommand{\sfdefault}{lmss}
+
+\allsectionsfont{\sffamily}
+\pretitle{\begin{center}\sffamily\bfseries\Huge}
+\posttitle{\par\end{center}}
+
+\setlength{\droptitle}{-10ex}
+
+\renewcommand{\arraystretch}{1.25} % You can adjust the value as needed

@@ -1,0 +1,127 @@
+{
+    "cv_langs": ["en", "no"],
+    
+    "summary": {
+        "heading": {
+            "en": "Summary",
+            "no": "Oppsummering"
+        },
+        "body": {
+            "en": "Computer engineer with a strong focus on performance-aware programming and data-oriented principles. Well experienced in systems programming, server management and DevOps. Passionate about free and open-source software.",
+            "no": "Dataingeniør med fokus på ytelsesbevisst programmering og dataorienterte prinsipper. Erfaren med systemprogrammering, serveradministrasjon og devops."
+        }
+    },
+    
+    "experience": {
+        "heading": {
+            "en": "Experience",
+            "no": "Erfaring"  
+        },
+        "table_headers": {
+            "en": ["Period", "Position", "Company", "Responsibilities"],
+            "no": ["Periode", "Posisjon", "Firma", "Ansvar"]
+        },
+        "table_records": {
+            "en": [
+                ["June 2023 - To date", "Software engineer", "TechnipFMC - Structural Analysis", "Software development of subsea services and products for operators in the oil and gas industry."],
+                ["June 2022 - Nov. 2022", "Intern", "TechnipFMC - Structural Analysis", "Participation of software development of internal systems for structural analysis of subsea systems."],
+                ["Aug. 2021 - June 2022", "Student Assistant", "University of South-Eastern Norway", "Help teaching students in the following courses: Introduction to Linux, Computational programming, Digital systems and programming, Object oriented programming."],
+                ["Aug. 2018 - March 2020", "Part-time worker", "Pizzabakeren, Egersund", "Making pizzas, cashier work, inventory replenishment."],
+                ["Dec. 2016 - Aug. 2018", "Part-time worker", "Dolly Dimple's, Kilden kjøpesenter", "Making pizzas, cashier work, inventory replenishment."],
+                ["Aug. 2015 - Aug. 2016", "Part-time worker", "Mix, Egersund", "Cashier work, inventory replenishment"],
+                ["June - Aug. 2014,15,16,19", "Summer job", "Nordan, Egersund", "Factory work, be part of the process of making doors."]
+            ],
+            "no": [
+                ["Juni 2023 - D.d.", "Software engineer", "TechnipFMC - Structural Analysis", "Programvareutvikling av subsea-tjenester og produkter for operatører i olje- og gassbransjen"],
+                ["Juni 2022 - Nov. 2022", "Intern", "TechnipFMC - Structural Analysis", "Programvareutvikling av interne systemer for strukturell analyse av subsea systemer."],
+                ["Aug. 2021 - Juni 2022", "Studentassistent", "Universitetet i Sørøst-Norge", "Hjelpelærer for studenter i følgende emner: Introduksjon til Linux, Programmering for beregning, Digitale systemer og programmering, Objekt-orientert programmering."],
+                ["Aug. 2018 - Mars 2020", "Deltidsarbeider", "Pizzabakeren, Egersund", "Lage pizza, kassearbeid, varepåfylling."],
+                ["Des. 2016 - Aug. 2018", "Deltidsarbeider", "Dolly Dimple's, Kilden kjøpesenter", "Lage pizza, kassearbeid, varepåfylling."],
+                ["Aug. 2015 - Aug. 2016", "Deltidsarbeider", "Mix, Egersund", "Kassearbeid, varepåfylling."],
+                ["Juni - Aug. 2014,15,16,19", "Sommerjobb", "Nordan, Egersund", "Fabrikkarbeid, delta i prossessen for å lage dører.."]
+            ]
+        }
+    },
+
+    "education": {
+        "heading": {
+            "en": "Education",
+            "no": "Utdanning"
+        },
+        "table_headers": {
+            "en": ["Period", "Diploma or certificate", "Institution", "Summary"],
+            "no": ["Periode", "Grad eller vitnemål", "Institusjon", "Sammendrag"]
+        },
+        "table_records": {
+            "en": [
+                ["Aug. 2020 - June 2023", "BSc, Computer Engineering", "University of South-Eastern Norway", "Cyber physical systems, focus on hardware-oriented software engineering."],
+                ["June 2020 - Aug. 2020", "Tresemester", "University of South-Eastern Norway", "Preparatory math and physics courses for engineering studies."],
+                ["Aug. 2018 - June 2019", "Supplementary studies qualifying for higher education", "Dalane Upper Secondary School", "High school courses which qualify one for higher education in Norway."],
+                ["Aug. 2014 - June 2017", "Media and communication", "Vågen Upper Secondary School", "High school with courses related to photography, videography and graphic design."]
+            ],
+            "no": [
+                ["Aug. 2020 - Juni 2023", "BSc, Dataingeniør", "Universitetet i Sørøst-Norge", "Cyber physical systems, fokus på hardware-orientert programmering."],
+                ["June 2020 - Aug. 2020", "Tresemester", "Universitetet i Sørøst-Norge", "Forberedende matte- og fysikkfag for ingeniørstudier."],
+                ["Aug. 2018 - June 2019", "Allmenn påbygg", "Dalane Videregående Skole", "Videregående fag som kvalifiserer en til høyere utdanning."],
+                ["Aug. 2014 - June 2017", "Medier og kommunikasjon", "Vågen Videregående Skole", "Videregående fag relatert til fotografi, videografi and grafisk design."]
+            ]
+        }
+    },
+
+    "awards": {
+        "heading": {
+            "en": "Awards",
+            "no": "Priser"
+        },
+        "table_headers": {
+            "en": ["Date", "Award", "Description"],
+            "no": ["Dato", "Pris", "Beskrivelse"]
+        },
+        "table_records": {
+            "en": [
+                ["July 2023", "Best BSc project", "My bachelor's project group was awarded the price of the best project of the year at The University of South-Eastern Norway, campus Kongsberg."]
+            ],
+            "no": [
+                ["Juli 2023", "Beste BSc prosjekt", "Min bachelorgruppe fikk utdelt prisen for årets beste prosjekt ved Universitetet i Sørøst-Norge, campus Kongsberg."]
+            ]
+        }
+    },
+
+    "organizations": {
+        "heading": {
+            "en": "Organizations",
+            "no": "Organisasjoner"
+        },
+        "table_headers": {
+            "en": ["Period", "Organization", "Position", "Description"],
+            "no": ["Periode", "Organisasjon", "Posisjon", "Beskrivelse"]
+        },
+        "table_records": {
+            "en": [
+                ["Aug. 2021 - June 2022", "The Student Democracy in South-Eastern Norway", "Student Council Chairperson", "The main elected student representative for the faculty on campus. Chairs the meetings with the student council and attends the meetings with the campus board and the semester meeting."],
+                ["Aug. 2020 - June 2021", "The Student Democracy in South-Eastern Norway", "Class representative", "Elected representative from the class. Acts as a link between the students in their class and the student council/campus board."]
+            ],
+            "no": [
+                ["Aug. 2021 - Juni 2022", "Studentdemokratiet i Sørøst-Norge", "Studentrådsleder", "Hovedtillitsvalgt på fakultet på campus. Leder møtene mellom de kulltillitsvalgte og deltar på møter i campusstyret og på semestermøtene."],
+                ["Aug. 2020 - Juni 2021", "Studentdemokratiet i Sørøst-Norge", "Kulltillitsvalgt", "Tillitsvalgt for kullet og fungerer som et bindeledd mellom studentene i kullene og studentrådet/campusstyret."]
+            ]
+        }
+    },
+
+    "skills": {
+        "hard": {
+            "heading": "Hard skills",
+            "skills": {
+                "en": ["Perl", "Python", "C", "C++", "SQL"],
+                "no": ["Perl", "Python", "C", "C++", "SQL"]
+            }
+        },
+        "soft": {
+            "heading": "Soft skills",
+            "skills": {
+                "en": ["Communication", "Problem-solving", "Creative thinking", "Critial thinking"],
+                "no": ["Kommunikasjon", "Problemløsning", "kreativ tenking", "kritisk tenking"]
+            }
+        }
+    }
+}
